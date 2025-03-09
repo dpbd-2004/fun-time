@@ -1,0 +1,77 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  
+  border-radius: 10px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Heading */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Project Links */
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+.project-link {
+  background: rgba(255, 255, 255, 0.1);
+
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.project-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: white;
+  transform: scale(1.05);
+}

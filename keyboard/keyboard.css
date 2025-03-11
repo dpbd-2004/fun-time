@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+/* Main container */
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+/* Key container */
+.key-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  min-width: 300px;
+}
+
+/* Heading */
+.key {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+}
+
+/* Key press effect */
+.key-container.animate {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}

@@ -1,0 +1,54 @@
+/* Apply global styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #212121;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* Container for content */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 40px;
+  border-radius: 12px;
+  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styles */
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  background-color: #ff9800;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #e68900;
+}
+
+button:active {
+  transform: scale(0.95);
+}
